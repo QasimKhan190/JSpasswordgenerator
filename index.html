@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+
+
+    <div id="d1">
+        <p><b>Password:</b> <span id="output"></span></p>
+                <button id="btn" onclick="copy()"><i class="fa-regular fa-copy"></i></button> <br>
+            </div>
+        
+        
+        
+            <div id="main">
+            <div id="h1">
+                    <b id="h">6</b>
+                </div>
+                <input oninput="updatePassword()" value="6" id="r" type="range" min="6" max="15"> <br>
+                <input id="myCheckbox1" type="checkbox"> Alphabet <br>
+                <input id="myCheckbox2" type="checkbox"> Symbols <br>
+                <input id="myCheckbox3" type="checkbox" checked> Numbers <br>
+            </div>
+        
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

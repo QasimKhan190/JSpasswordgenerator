@@ -1,0 +1,24 @@
+#h1{
+    border: 1px solid black;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+}
+#btn{
+    display: inline-block;
+    border: none;
+    background-color: white;
+}
+p{
+    display: inline-block;
+}
+#d1{
+    display: inline-block;
+    border: 1px solid black;
+    width: 15%;
+}
+#main{
+    border: 1px solid black;
+    width: 20%;
+    height: 100px;
+}
